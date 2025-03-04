@@ -62,3 +62,38 @@ if user_input:
             message_placeholder.markdown(full_response)
 else:
     st.warning("⚠️ Please enter your query to get started!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# TRICKY EXAMPLE 
+
+message = "Python is amazing!"
+
+print("Python" in message)  #  True (Kyunki "Python" mojood hai)
+print("is" in message)      # True ("is" bhi mojood hai)
+print("Java" in message)    #  False (Java is not here!)
+print("Amazing" in message) # False (Case-sensitive hai, "amazing" hota to True hota)

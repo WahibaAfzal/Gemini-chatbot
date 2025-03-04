@@ -87,13 +87,3 @@ else:
 
 
 
-
-
-# TRICKY EXAMPLE 
-
-message = "Python is amazing!"
-
-print("Python" in message)  #  True (Kyunki "Python" mojood hai)
-print("is" in message)      # True ("is" bhi mojood hai)
-print("Java" in message)    #  False (Java is not here!)
-print("Amazing" in message) # False (Case-sensitive hai, "amazing" hota to True hota)
